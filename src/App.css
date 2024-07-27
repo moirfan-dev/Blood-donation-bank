@@ -1,0 +1,25 @@
+/* In your CSS file (e.g., App.css) */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  /* Optional: Styles for the footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 1rem;
+  }
+  
